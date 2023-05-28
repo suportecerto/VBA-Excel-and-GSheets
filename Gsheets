@@ -1,0 +1,430 @@
+function MENU_23() {
+  var spreadsheet = SpreadsheetApp.getActive();
+  spreadsheet.setActiveSheet(spreadsheet.getSheetByName('MENU23'), true);
+  spreadsheet.getActiveSheet().showSheet();
+  spreadsheet.getRange('G4').activate();
+  spreadsheet.setActiveSheet(spreadsheet.getSheetByName('DADOS'), true);
+  spreadsheet.getActiveSheet().hideSheet();
+  spreadsheet.setActiveSheet(spreadsheet.getSheetByName('CALC'), true);
+  spreadsheet.getActiveSheet().hideSheet();
+  spreadsheet.setActiveSheet(spreadsheet.getSheetByName('JAN'), true);
+  spreadsheet.getActiveSheet().hideSheet();
+  spreadsheet.setActiveSheet(spreadsheet.getSheetByName('FEV'), true);
+  spreadsheet.getActiveSheet().hideSheet();
+  spreadsheet.setActiveSheet(spreadsheet.getSheetByName('MAR'), true);
+  spreadsheet.getActiveSheet().hideSheet();
+  spreadsheet.setActiveSheet(spreadsheet.getSheetByName('ABR'), true);
+  spreadsheet.getActiveSheet().hideSheet();
+  spreadsheet.setActiveSheet(spreadsheet.getSheetByName('MAI'), true);
+  spreadsheet.getActiveSheet().hideSheet();
+  spreadsheet.setActiveSheet(spreadsheet.getSheetByName('JUN'), true);
+  spreadsheet.getActiveSheet().hideSheet();
+  spreadsheet.setActiveSheet(spreadsheet.getSheetByName('JUL'), true);
+  spreadsheet.getActiveSheet().hideSheet();
+  spreadsheet.setActiveSheet(spreadsheet.getSheetByName('AGO'), true);
+  spreadsheet.getActiveSheet().hideSheet();
+  spreadsheet.setActiveSheet(spreadsheet.getSheetByName('SET'), true);
+  spreadsheet.getActiveSheet().hideSheet();
+  spreadsheet.setActiveSheet(spreadsheet.getSheetByName('OUT'), true);
+  spreadsheet.getActiveSheet().hideSheet();
+  spreadsheet.setActiveSheet(spreadsheet.getSheetByName('NOV'), true);
+  spreadsheet.getActiveSheet().hideSheet();
+  spreadsheet.setActiveSheet(spreadsheet.getSheetByName('DEZ'), true);
+  spreadsheet.getActiveSheet().hideSheet();
+  spreadsheet.setActiveSheet(spreadsheet.getSheetByName('FICHA JAN'), true);
+  spreadsheet.getActiveSheet().hideSheet();
+  spreadsheet.setActiveSheet(spreadsheet.getSheetByName('FICHA FEV'), true);
+  spreadsheet.getActiveSheet().hideSheet();
+  spreadsheet.setActiveSheet(spreadsheet.getSheetByName('FICHA MAR'), true);
+  spreadsheet.getActiveSheet().hideSheet();
+  spreadsheet.setActiveSheet(spreadsheet.getSheetByName('FICHA ABR'), true);
+  spreadsheet.getActiveSheet().hideSheet();
+  spreadsheet.setActiveSheet(spreadsheet.getSheetByName('FICHA MAI'), true);
+  spreadsheet.getActiveSheet().hideSheet();
+  spreadsheet.setActiveSheet(spreadsheet.getSheetByName('FICHA JUN'), true);
+  spreadsheet.getActiveSheet().hideSheet();
+  spreadsheet.setActiveSheet(spreadsheet.getSheetByName('FICHA JUL'), true);
+  spreadsheet.getActiveSheet().hideSheet();
+  spreadsheet.setActiveSheet(spreadsheet.getSheetByName('FICHA AGO'), true);
+  spreadsheet.getActiveSheet().hideSheet();
+  spreadsheet.setActiveSheet(spreadsheet.getSheetByName('FICHA SET'), true);
+  spreadsheet.getActiveSheet().hideSheet();
+  spreadsheet.setActiveSheet(spreadsheet.getSheetByName('FICHA OUT'), true);
+  spreadsheet.getActiveSheet().hideSheet();
+  spreadsheet.setActiveSheet(spreadsheet.getSheetByName('FICHA NOV'), true);
+  spreadsheet.getActiveSheet().hideSheet();
+  spreadsheet.setActiveSheet(spreadsheet.getSheetByName('FICHA DEZ'), true);
+  spreadsheet.getActiveSheet().hideSheet();
+  //spreadsheet.setActiveSheet(spreadsheet.getSheetByName('PEÇAS*'), true);
+  //spreadsheet.getActiveSheet().hideSheet();
+  
+  }
+
+function FCH_JAN() {
+  var jan = SpreadsheetApp.getActive();
+  jan.setActiveSheet(jan.getSheetByName('FICHA JAN'), true);
+  jan.getActiveSheet().showSheet();
+  jan.getRange("i4").activate();
+  jan.setActiveSheet(jan.getSheetByName('MENU23'), true);
+  jan.getActiveSheet().hideSheet();
+  jan.setActiveSheet(jan.getSheetByName('JAN'), true);
+  jan.getActiveSheet().hideSheet();}
+
+  function FCH_FEV() {
+  var fev = SpreadsheetApp.getActive();
+  fev.setActiveSheet(fev.getSheetByName('FICHA FEV'), true);
+  fev.getActiveSheet().showSheet();
+  fev.getRange("i4").activate();
+  fev.setActiveSheet(fev.getSheetByName('MENU23'), true);
+  fev.getActiveSheet().hideSheet();
+  fev.setActiveSheet(fev.getSheetByName('FEV'), true);
+  fev.getActiveSheet().hideSheet();}
+
+  function FCH_MAR() {
+  var mar = SpreadsheetApp.getActive();
+  mar.setActiveSheet(mar.getSheetByName('FICHA MAR'), true);
+  mar.getActiveSheet().showSheet();
+  mar.getRange("i4").activate();
+  mar.setActiveSheet(mar.getSheetByName('MENU23'), true);
+  mar.getActiveSheet().hideSheet();
+  mar.setActiveSheet(mar.getSheetByName('MAR'), true);
+  mar.getActiveSheet().hideSheet();}
+
+  function FCH_ABR() {
+  var abr = SpreadsheetApp.getActive();
+  abr.setActiveSheet(abr.getSheetByName('FICHA ABR'), true);
+  abr.getActiveSheet().showSheet();
+  abr.getRange("i4").activate();
+  abr.setActiveSheet(abr.getSheetByName('MENU23'), true);
+  abr.getActiveSheet().hideSheet();
+  abr.setActiveSheet(abr.getSheetByName('ABR'), true);
+  abr.getActiveSheet().hideSheet();}
+
+
+function FCH_MAI() {
+  var mai = SpreadsheetApp.getActive();
+  mai.setActiveSheet(mai.getSheetByName('FICHA MAI'), true);
+  mai.getActiveSheet().showSheet();
+  mai.getRange("i4").activate();
+  mai.setActiveSheet(mai.getSheetByName('MENU23'), true);
+  mai.getActiveSheet().hideSheet();
+  mai.setActiveSheet(mai.getSheetByName('MAI'), true);
+  mai.getActiveSheet().hideSheet();}
+
+function FCH_JUN() {
+  var jun = SpreadsheetApp.getActive();
+  jun.setActiveSheet(jun.getSheetByName('FICHA JUN'), true);
+  jun.getActiveSheet().showSheet();
+  jun.getRange("i4").activate();
+  jun.setActiveSheet(jun.getSheetByName('MENU23'), true);
+  jun.getActiveSheet().hideSheet();
+  jun.setActiveSheet(jun.getSheetByName('JUN'), true);
+  jun.getActiveSheet().hideSheet();}
+
+function FCH_JUL() {
+  var jan = SpreadsheetApp.getActive();
+  jan.setActiveSheet(jan.getSheetByName('FICHA JUL'), true);
+  jan.getActiveSheet().showSheet();
+  jan.getRange("i4").activate();
+  jan.setActiveSheet(jan.getSheetByName('MENU23'), true);
+  jan.getActiveSheet().hideSheet();
+  jan.setActiveSheet(jan.getSheetByName('JUL'), true);
+  jan.getActiveSheet().hideSheet();}
+
+  function FCH_AGO() {
+  var ago = SpreadsheetApp.getActive();
+  ago.setActiveSheet(ago.getSheetByName('FICHA AGO'), true);
+  ago.getActiveSheet().showSheet();
+  ago.getRange("i4").activate();
+  ago.setActiveSheet(ago.getSheetByName('MENU23'), true);
+  ago.getActiveSheet().hideSheet();
+  ago.setActiveSheet(ago.getSheetByName('AGO'), true);
+  ago.getActiveSheet().hideSheet();}
+
+  function FCH_SET() {
+  var setbr = SpreadsheetApp.getActive();
+  setbr.setActiveSheet(setbr.getSheetByName('FICHA SET'), true);
+  setbr.getActiveSheet().showSheet();
+  setbr.getRange("i4").activate();
+  setbr.setActiveSheet(setbr.getSheetByName('MENU23'), true);
+  setbr.getActiveSheet().hideSheet();
+  setbr.setActiveSheet(setbr.getSheetByName('SET'), true);
+  setbr.getActiveSheet().hideSheet();}
+
+function FCH_OUT() {
+  var ago = SpreadsheetApp.getActive();
+  ago.setActiveSheet(ago.getSheetByName('FICHA OUT'), true);
+  ago.getActiveSheet().showSheet();
+  ago.getRange("i4").activate();
+  ago.setActiveSheet(ago.getSheetByName('MENU23'), true);
+  ago.getActiveSheet().hideSheet();
+  ago.setActiveSheet(ago.getSheetByName('OUT'), true);
+  ago.getActiveSheet().hideSheet();}
+
+  function FCH_NOV() {
+  var ago = SpreadsheetApp.getActive();
+  ago.setActiveSheet(ago.getSheetByName('FICHA NOV'), true);
+  ago.getActiveSheet().showSheet();
+  ago.getRange("i4").activate();
+  ago.setActiveSheet(ago.getSheetByName('MENU23'), true);
+  ago.getActiveSheet().hideSheet();
+  ago.setActiveSheet(ago.getSheetByName('NOV'), true);
+  ago.getActiveSheet().hideSheet();}
+
+  function FCH_DEZ() {
+  var ago = SpreadsheetApp.getActive();
+  ago.setActiveSheet(ago.getSheetByName('FICHA DEZ'), true);
+  ago.getActiveSheet().showSheet();
+  ago.getRange("i4").activate();
+  ago.setActiveSheet(ago.getSheetByName('MENU23'), true);
+  ago.getActiveSheet().hideSheet();
+  ago.setActiveSheet(ago.getSheetByName('DEZ'), true);
+  ago.getActiveSheet().hideSheet();}
+  
+  function JAN() {
+  var jan = SpreadsheetApp.getActive();
+  jan.setActiveSheet(jan.getSheetByName('JAN'), true);
+  jan.getActiveSheet().showSheet();
+  jan.getRange("i4").activate();
+  jan.setActiveSheet(jan.getSheetByName('MENU23'), true);
+  jan.getActiveSheet().hideSheet();}
+
+  function FEV() {
+  var fev = SpreadsheetApp.getActive();
+  fev.setActiveSheet(fev.getSheetByName('FEV'), true);
+  fev.getActiveSheet().showSheet();
+  fev.getRange("a343").activate();
+  fev.setActiveSheet(fev.getSheetByName('MENU23'), true);
+  fev.getActiveSheet().hideSheet();
+  }
+
+  function MAR() {
+  var mar = SpreadsheetApp.getActive();
+  mar.setActiveSheet(mar.getSheetByName('MAR'), true);
+  mar.getActiveSheet().showSheet();
+  mar.getRange("A15").activate();
+  mar.setActiveSheet(mar.getSheetByName('MENU23'), true);
+  mar.getActiveSheet().hideSheet();
+  mar.setActiveSheet(mar.getSheetByName('FICHA MAR'), true);
+  mar.getActiveSheet().hideSheet();}
+  
+  function ABR() {
+  var abr = SpreadsheetApp.getActive();
+  abr.setActiveSheet(abr.getSheetByName('ABR'), true);
+  abr.getActiveSheet().showSheet();
+  abr.getRange("i4").activate();
+  abr.setActiveSheet(abr.getSheetByName('MENU23'), true);
+  abr.getActiveSheet().hideSheet();
+  abr.setActiveSheet(abr.getSheetByName('FICHA ABR'), true);
+  abr.getActiveSheet().hideSheet();}
+  
+  function MAI() {
+  var mai = SpreadsheetApp.getActive();
+  mai.setActiveSheet(mai.getSheetByName('MAI'), true);
+  mai.getActiveSheet().showSheet();
+  mai.getRange("i4").activate();
+  mai.setActiveSheet(mai.getSheetByName('MENU23'), true);
+  mai.getActiveSheet().hideSheet();
+  mai.setActiveSheet(mai.getSheetByName('FICHA MAI'), true);
+  mai.getActiveSheet().hideSheet();}
+  
+  function JUN() {
+  var jun = SpreadsheetApp.getActive();
+  jun.setActiveSheet(jun.getSheetByName('JUN'), true);
+  jun.getActiveSheet().showSheet();
+  jun.getRange('i4');
+  jun.setActiveSheet(jun.getSheetByName('MENU23'), true);
+  jun.getActiveSheet().hideSheet();
+  jun.setActiveSheet(jun.getSheetByName('FICHA JUN'), true);
+  jun.getActiveSheet().hideSheet();}
+  
+  function JUL() {
+  var jul = SpreadsheetApp.getActive();
+  jul.setActiveSheet(jul.getSheetByName('JUL'), true);
+  jul.getActiveSheet().showSheet();
+  jul.getRange('i4');
+  jul.setActiveSheet(jul.getSheetByName('MENU23'), true);
+  jul.getActiveSheet().hideSheet();
+  jul.setActiveSheet(jul.getSheetByName('FICHA JUL'), true);
+  jul.getActiveSheet().hideSheet();}
+  
+  function AGO() {
+  var ago = SpreadsheetApp.getActive();
+  ago.setActiveSheet(ago.getSheetByName('AGO'), true);
+  ago.getActiveSheet().showSheet();
+  ago.getRange("i4").activate();
+  ago.setActiveSheet(ago.getSheetByName('MENU23'), true);
+  ago.getActiveSheet().hideSheet();
+  ago.setActiveSheet(ago.getSheetByName('FICHA AGO'), true);
+  ago.getActiveSheet().hideSheet();}
+  
+  function SET() {
+  var setbr = SpreadsheetApp.getActive();
+  setbr.setActiveSheet(setbr.getSheetByName('SET'), true);
+  setbr.getActiveSheet().showSheet();
+  setbr.getRange("i4").activate();
+  setbr.setActiveSheet(setbr.getSheetByName('MENU23'), true);
+  setbr.getActiveSheet().hideSheet();
+  setbr.setActiveSheet(setbr.getSheetByName('FICHA SET'), true);
+  setbr.getActiveSheet().hideSheet();}
+  
+  function OUT() {
+  var out = SpreadsheetApp.getActive();
+  out.setActiveSheet(out.getSheetByName('OUT'), true);
+  out.getActiveSheet().showSheet();
+  out.getRange("i4").activate();
+  out.setActiveSheet(out.getSheetByName('MENU23'), true);
+  out.getActiveSheet().hideSheet();
+  out.setActiveSheet(out.getSheetByName('FICHA OUT'), true);
+  out.getActiveSheet().hideSheet();}
+  
+  function NOV() {
+  var nov = SpreadsheetApp.getActive();
+  nov.setActiveSheet(nov.getSheetByName('NOV'), true);
+  nov.getActiveSheet().showSheet();
+  nov.getRange("i4").activate();
+  nov.setActiveSheet(nov.getSheetByName('MENU23'), true);
+  nov.getActiveSheet().hideSheet();
+  nov.setActiveSheet(nov.getSheetByName('FICHA NOV'), true);
+  nov.getActiveSheet().hideSheet();}
+  
+  function DEZ() {
+  var dez = SpreadsheetApp.getActive();
+  dez.setActiveSheet(dez.getSheetByName('DEZ'), true);
+  dez.getActiveSheet().showSheet();
+  dez.getRange("i4").activate();
+  dez.setActiveSheet(dez.getSheetByName('MENU23'), true);
+  dez.getActiveSheet().hideSheet();
+  dez.setActiveSheet(dez.getSheetByName('FICHA DEZ'), true);
+  dez.getActiveSheet().hideSheet();}
+  
+  
+  function TODAS_VENDAS() {
+  var abas = SpreadsheetApp.getActive();
+  abas.setActiveSheet(abas.getSheetByName('MENU23'), true);
+  abas.getActiveSheet().showSheet();
+  abas.setActiveSheet(abas.getSheetByName('JAN'),true);
+  abas.getActiveSheet().showSheet();
+  abas.setActiveSheet(abas.getSheetByName('FEV'),true);
+  abas.getActiveSheet().showSheet();
+  abas.setActiveSheet(abas.getSheetByName('MAR'),true);
+  abas.getActiveSheet().showSheet();
+  abas.setActiveSheet(abas.getSheetByName('ABR'),true);
+  abas.getActiveSheet().showSheet();
+  abas.setActiveSheet(abas.getSheetByName('MAI'),true);
+  abas.getActiveSheet().showSheet();
+  abas.setActiveSheet(abas.getSheetByName('JUN'),true);
+  abas.getActiveSheet().showSheet();
+  abas.setActiveSheet(abas.getSheetByName('JUL'),true);
+  abas.getActiveSheet().showSheet();
+  abas.setActiveSheet(abas.getSheetByName('AGO'),true);
+  abas.getActiveSheet().showSheet();
+  abas.setActiveSheet(abas.getSheetByName('SET'),true);
+  abas.getActiveSheet().showSheet();  
+  abas.setActiveSheet(abas.getSheetByName('OUT'),true);
+  abas.getActiveSheet().showSheet();
+  abas.setActiveSheet(abas.getSheetByName('NOV'),true);
+  abas.getActiveSheet().showSheet();
+  abas.setActiveSheet(abas.getSheetByName('DEZ'),true);
+  abas.getRange("i4").activate();
+  abas.getActiveSheet().showSheet();}
+
+  function TODAS_FICHAS() {
+  var abas = SpreadsheetApp.getActive();
+  abas.setActiveSheet(abas.getSheetByName('FICHA MAR'),true);
+  abas.getActiveSheet().showSheet();
+  abas.setActiveSheet(abas.getSheetByName('FICHA ABR'),true);
+  abas.getActiveSheet().showSheet();
+  abas.setActiveSheet(abas.getSheetByName('FICHA MAI'),true);
+  abas.getActiveSheet().showSheet();
+  abas.setActiveSheet(abas.getSheetByName('FICHA JUN'),true);
+  abas.getActiveSheet().showSheet();
+  abas.setActiveSheet(abas.getSheetByName('FICHA JUL'),true);
+  abas.getActiveSheet().showSheet();
+  abas.setActiveSheet(abas.getSheetByName('FICHA AGO'),true);
+  abas.getActiveSheet().showSheet();
+  abas.setActiveSheet(abas.getSheetByName('FICHA SET'),true);
+  abas.getActiveSheet().showSheet();
+  abas.setActiveSheet(abas.getSheetByName('FICHA OUT'),true);
+  abas.getActiveSheet().showSheet();
+  abas.setActiveSheet(abas.getSheetByName('FICHA NOV'),true);
+  abas.getActiveSheet().showSheet();
+  abas.setActiveSheet(abas.getSheetByName('FICHA DEZ'),true);
+  abas.getActiveSheet().showSheet();
+  abas.getRange("i4").activate();
+  abas.setActiveSheet(abas.getSheetByName('MENU23'), true);
+  abas.getActiveSheet().hideSheet();}
+
+  function FECHA_TODAS() {
+  var spreadsheet = SpreadsheetApp.getActive();
+  spreadsheet.setActiveSheet(spreadsheet.getSheetByName('MENU23'), true);
+  spreadsheet.getActiveSheet().showSheet();
+  spreadsheet.setActiveSheet(spreadsheet.getSheetByName('CALC'), true);
+  spreadsheet.getActiveSheet().hideSheet();
+  spreadsheet.setActiveSheet(spreadsheet.getSheetByName('JAN'), true);
+  spreadsheet.getActiveSheet().hideSheet();
+  spreadsheet.setActiveSheet(spreadsheet.getSheetByName('FEV'), true);
+  spreadsheet.getActiveSheet().hideSheet();
+  spreadsheet.setActiveSheet(spreadsheet.getSheetByName('MAR'), true);
+  spreadsheet.getActiveSheet().hideSheet();
+  spreadsheet.setActiveSheet(spreadsheet.getSheetByName('ABR'), true);
+  spreadsheet.getActiveSheet().hideSheet();
+  spreadsheet.setActiveSheet(spreadsheet.getSheetByName('MAI'), true);
+  spreadsheet.getActiveSheet().hideSheet();
+  spreadsheet.setActiveSheet(spreadsheet.getSheetByName('JUN'), true);
+  spreadsheet.getActiveSheet().hideSheet();
+  spreadsheet.setActiveSheet(spreadsheet.getSheetByName('JUL'), true);
+  spreadsheet.getActiveSheet().hideSheet();
+  spreadsheet.setActiveSheet(spreadsheet.getSheetByName('AGO'), true);
+  spreadsheet.getActiveSheet().hideSheet();
+  spreadsheet.setActiveSheet(spreadsheet.getSheetByName('SET'), true);
+  spreadsheet.getActiveSheet().hideSheet();
+  spreadsheet.setActiveSheet(spreadsheet.getSheetByName('OUT'), true);
+  spreadsheet.getActiveSheet().hideSheet();
+  spreadsheet.setActiveSheet(spreadsheet.getSheetByName('NOV'), true);
+  spreadsheet.getActiveSheet().hideSheet();
+  spreadsheet.setActiveSheet(spreadsheet.getSheetByName('DEZ'), true);
+  spreadsheet.getActiveSheet().hideSheet();
+  spreadsheet.setActiveSheet(spreadsheet.getSheetByName('FICHA JAN'), true);
+  spreadsheet.getActiveSheet().hideSheet();
+  spreadsheet.setActiveSheet(spreadsheet.getSheetByName('FICHA FEV'), true);
+  spreadsheet.getActiveSheet().hideSheet();
+  spreadsheet.setActiveSheet(spreadsheet.getSheetByName('FICHA MAR'), true);
+  spreadsheet.getActiveSheet().hideSheet();
+  spreadsheet.setActiveSheet(spreadsheet.getSheetByName('FICHA ABR'), true);
+  spreadsheet.getActiveSheet().hideSheet();
+  spreadsheet.setActiveSheet(spreadsheet.getSheetByName('FICHA MAI'), true);
+  spreadsheet.getActiveSheet().hideSheet();
+  spreadsheet.setActiveSheet(spreadsheet.getSheetByName('FICHA JUN'), true);
+  spreadsheet.getActiveSheet().hideSheet();
+  spreadsheet.setActiveSheet(spreadsheet.getSheetByName('FICHA JUL'), true);
+  spreadsheet.getActiveSheet().hideSheet();
+  spreadsheet.setActiveSheet(spreadsheet.getSheetByName('FICHA AGO'), true);
+  spreadsheet.getActiveSheet().hideSheet();
+  spreadsheet.setActiveSheet(spreadsheet.getSheetByName('FICHA SET'), true);
+  spreadsheet.getActiveSheet().hideSheet();
+  spreadsheet.setActiveSheet(spreadsheet.getSheetByName('FICHA OUT'), true);
+  spreadsheet.getActiveSheet().hideSheet();
+  spreadsheet.setActiveSheet(spreadsheet.getSheetByName('FICHA NOV'), true);
+  spreadsheet.getActiveSheet().hideSheet();
+  spreadsheet.setActiveSheet(spreadsheet.getSheetByName('FICHA DEZ'), true);
+  spreadsheet.getActiveSheet().hideSheet();
+  spreadsheet.setActiveSheet(spreadsheet.getSheetByName('DADOS'), true);
+  spreadsheet.getActiveSheet().hideSheet();}
+
+  function CALC(){
+  var calc=SpreadsheetApp.getActive();
+  calc.setActiveSheet(calc.getSheetByName('CALC'), true);
+  calc.getActiveSheet().showSheet();
+  calc.setActiveSheet(calc.getSheetByName('MENU23'), true);
+  calc.getActiveSheet().hideSheet();}
+
+  function VAI(){
+  var ss=SpreadsheetApp.getActive();
+  ss.getRange("G4").activate();}
+
+
+  
+
+
+
